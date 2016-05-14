@@ -1,0 +1,30 @@
+<html ng-app="taskbounty">
+
+<head>
+    <title>My Angular App</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css"></link>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+    <script src="src/home.js"></script>
+</head>
+
+<body ng-controller="homeController as home">
+
+    <md-toolbar layout="row" layout-align="start center">
+        <h1>{{home.title}}</h1>
+        <a style="margin-left: auto;" ng-href="submit.html">
+            <h3>
+                <md-icon md-svg-src="images/add_circle.svg" class="s24" aria-label="add-circle" style="color: #fff;"></md-icon>
+                SUBMIT JOB
+            </h3>
+        </a>
+    </md-toolbar>
+
+
+</body>
+
+</html>
